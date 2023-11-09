@@ -35,7 +35,7 @@ export interface CameraProps extends ViewProps {
    * )
    * ```
    */
-  device: CameraDevice
+  device: CameraDevice | undefined
   /**
    * Whether the Camera should actively stream video frames, or not. See the [documentation about the `isActive` prop](https://react-native-vision-camera.com/docs/guides/lifecycle#the-isactive-prop) for more information.
    *
